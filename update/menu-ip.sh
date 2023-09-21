@@ -18,7 +18,7 @@ echo -e "$COLOR1│${NC} ${COLBG1}              • IPVPS GITHUB API •        
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 
-if [[ -f /etc/yokkovpn/github/api && -f /etc/huutvpn/github/email && /etc/huutvpn/github/username ]]; then
+if [[ -f /etc/huutvpn/github/api && -f /etc/huutvpn/github/email && /etc/huutvpn/github/username ]]; then
    rec="OK"
 else
     mkdir /etc/huutvpn/github > /dev/null 2>&1
@@ -97,7 +97,7 @@ echo -e "$COLOR1│${NC}  • All U need Is Create a new repository "
 echo -e "$COLOR1│${NC}    & Nammed : permission "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • YOKKOEDDYSTORE.STUDIO •            $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • huutvpn.huutvpn •            $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -120,7 +120,7 @@ if [[ $daftar = $REQIP ]]; then
 echo -e "$COLOR1│${NC}  [INFO] VPS IP Already Registered!!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • YOKKOEDDYSTORE.STUDIO •            $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • huutvpn.huutvpn •            $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
